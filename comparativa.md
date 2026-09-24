@@ -39,3 +39,11 @@ Un CRM bastante conocido en el mundo del código abierto, bajo licencia **GNU AG
 ### Salesforce Sales Cloud (CRM Propietario)
 Seguramente el CRM en la nube más utilizado del mercado. Es un servicio SaaS con licencia comercial por usuario. Todo su motor corre sobre su propio lenguaje (**Apex**) y una base de datos interna gestionada por ellos. En la versión Summer '26 destaca por sus funciones de Field Service (muy útil si hay gente desplazada en obras), gestión de clientes y cuadros de mando.
 - *Fuente oficial:* https://www.salesforce.com/es/ (Consulta: 24/09/2026)
+
+## 4. Fe de erratas
+
+Revisando el material del tema sobre los sistemas CRM, me he fijado en un par de apuntes sobre SuiteCRM que no terminan de cuadrar con el estado actual del programa:
+
+Por un lado, la presentación dice que SuiteCRM fue "Desarrollado por la comunidad SugarCRM". Si investigamos un poco el origen de la herramienta, se ve que en realidad nació como un fork independiente impulsado por la empresa SalesAgility por 2013, justo cuando los creadores de SugarCRM decidieron cerrar el código de sus versiones libres.
+
+Por otro lado, el temario señala que es compatible con "MySQL, MariaDB y SQL Server". Si entramos hoy en día a la matriz de compatibilidad de sus versiones modernas (las de la rama SuiteCRM 8.x en https://docs.suitecrm.com/admin/compatibility-matrix/), se comprueba que el soporte para Microsoft SQL Server se fue retirando a medida que reestructuraron todo el motor sobre Symfony, dejando el soporte oficial enfocado en MariaDB y MySQL sobre entornos Linux.
